@@ -558,3 +558,24 @@ NameError: name 'Asset' is not defined
 [2025-08-02T14:28:20.572+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:28:20.572+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-08-02T14:28:20.593+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:28:20.592+0000] {dag.py:3947} INFO - Setting next_dagrun for example_astronauts to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
 [2025-08-02T14:28:20.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 0.084 seconds
+[2025-08-02T14:28:50.695+0000] {processor.py:161} INFO - Started process (PID=461) to work on /opt/airflow/dags/exampledag.py
+[2025-08-02T14:28:50.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exampledag.py for tasks to queue
+[2025-08-02T14:28:50.696+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:28:50.696+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/exampledag.py
+[2025-08-02T14:28:50.703+0000] {processor.py:840} INFO - DAG(s) 'example_astronauts' retrieved from /opt/airflow/dags/exampledag.py
+[2025-08-02T14:28:50.723+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:28:50.723+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-02T14:28:50.736+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:28:50.736+0000] {dag.py:3947} INFO - Setting next_dagrun for example_astronauts to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
+[2025-08-02T14:28:50.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 0.059 seconds
+[2025-08-02T14:29:20.854+0000] {processor.py:161} INFO - Started process (PID=469) to work on /opt/airflow/dags/exampledag.py
+[2025-08-02T14:29:20.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exampledag.py for tasks to queue
+[2025-08-02T14:29:20.855+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:29:20.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/exampledag.py
+[2025-08-02T14:29:20.862+0000] {processor.py:840} INFO - DAG(s) 'example_astronauts' retrieved from /opt/airflow/dags/exampledag.py
+[2025-08-02T14:29:20.882+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:29:20.882+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-02T14:29:20.896+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:29:20.896+0000] {dag.py:3947} INFO - Setting next_dagrun for example_astronauts to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
+[2025-08-02T14:29:20.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 0.061 seconds
+[2025-08-02T14:29:51.006+0000] {processor.py:161} INFO - Started process (PID=477) to work on /opt/airflow/dags/exampledag.py
+[2025-08-02T14:29:51.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exampledag.py for tasks to queue
+[2025-08-02T14:29:51.007+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:29:51.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/exampledag.py
+[2025-08-02T14:29:51.015+0000] {processor.py:840} INFO - DAG(s) 'example_astronauts' retrieved from /opt/airflow/dags/exampledag.py
+[2025-08-02T14:29:51.044+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:29:51.044+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-02T14:29:51.059+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:29:51.059+0000] {dag.py:3947} INFO - Setting next_dagrun for example_astronauts to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
+[2025-08-02T14:29:51.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 0.075 seconds
