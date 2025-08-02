@@ -1,0 +1,18 @@
+[2025-08-02T14:09:30.212+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-02T14:09:30.232+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transaction_etl_pipeline.validate_environment manual__2025-08-02T14:09:29.265146+00:00 [queued]>
+[2025-08-02T14:09:30.238+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transaction_etl_pipeline.validate_environment manual__2025-08-02T14:09:29.265146+00:00 [queued]>
+[2025-08-02T14:09:30.238+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-08-02T14:09:30.247+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): validate_environment> on 2025-08-02 14:09:29.265146+00:00
+[2025-08-02T14:09:30.252+0000] {standard_task_runner.py:64} INFO - Started process 116 to run task
+[2025-08-02T14:09:30.255+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'transaction_etl_pipeline', 'validate_environment', 'manual__2025-08-02T14:09:29.265146+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmp43cdi6wy']
+[2025-08-02T14:09:30.255+0000] {standard_task_runner.py:91} INFO - Job 12: Subtask validate_environment
+[2025-08-02T14:09:30.287+0000] {task_command.py:426} INFO - Running <TaskInstance: transaction_etl_pipeline.validate_environment manual__2025-08-02T14:09:29.265146+00:00 [running]> on host f89c4ed376bf
+[2025-08-02T14:09:30.348+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='DataTeam' AIRFLOW_CTX_DAG_ID='transaction_etl_pipeline' AIRFLOW_CTX_TASK_ID='validate_environment' AIRFLOW_CTX_EXECUTION_DATE='2025-08-02T14:09:29.265146+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-02T14:09:29.265146+00:00'
+[2025-08-02T14:09:30.349+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-02T14:09:30.349+0000] {etl_dag.py:49} INFO - All required environment variables are set
+[2025-08-02T14:09:30.349+0000] {python.py:237} INFO - Done. Returned value was: True
+[2025-08-02T14:09:30.350+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-02T14:09:30.372+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=transaction_etl_pipeline, task_id=validate_environment, run_id=manual__2025-08-02T14:09:29.265146+00:00, execution_date=20250802T140929, start_date=20250802T140930, end_date=20250802T140930
+[2025-08-02T14:09:30.386+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-08-02T14:09:30.404+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-08-02T14:09:30.406+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  airflow-webserver:
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./etl:/opt/airflow/etl
+      - ./plugins:/opt/airflow/plugins
+      - ./.env:/opt/airflow/.env
+

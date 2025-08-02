@@ -1,0 +1,17 @@
+[2025-08-02T14:09:32.695+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-02T14:09:32.738+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_astronauts.print_astronaut_craft scheduled__2025-08-01T00:00:00+00:00 map_index=1 [queued]>
+[2025-08-02T14:09:32.749+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_astronauts.print_astronaut_craft scheduled__2025-08-01T00:00:00+00:00 map_index=1 [queued]>
+[2025-08-02T14:09:32.750+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-08-02T14:09:32.767+0000] {taskinstance.py:2330} INFO - Executing <Mapped(_PythonDecoratedOperator): print_astronaut_craft> on 2025-08-01 00:00:00+00:00
+[2025-08-02T14:09:32.775+0000] {standard_task_runner.py:64} INFO - Started process 146 to run task
+[2025-08-02T14:09:32.779+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'example_astronauts', 'print_astronaut_craft', 'scheduled__2025-08-01T00:00:00+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/exampledag.py', '--cfg-path', '/tmp/tmpvvukzd_o', '--map-index', '1']
+[2025-08-02T14:09:32.781+0000] {standard_task_runner.py:91} INFO - Job 20: Subtask print_astronaut_craft
+[2025-08-02T14:09:32.844+0000] {task_command.py:426} INFO - Running <TaskInstance: example_astronauts.print_astronaut_craft scheduled__2025-08-01T00:00:00+00:00 map_index=1 [running]> on host f89c4ed376bf
+[2025-08-02T14:09:32.971+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Astro' AIRFLOW_CTX_DAG_ID='example_astronauts' AIRFLOW_CTX_TASK_ID='print_astronaut_craft' AIRFLOW_CTX_EXECUTION_DATE='2025-08-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-08-01T00:00:00+00:00'
+[2025-08-02T14:09:32.972+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-02T14:09:32.973+0000] {logging_mixin.py:188} INFO - Nikolai Chub is currently in space flying on the ISS! Hello! :)
+[2025-08-02T14:09:32.973+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-08-02T14:09:32.973+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-02T14:09:32.982+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=example_astronauts, task_id=print_astronaut_craft, run_id=scheduled__2025-08-01T00:00:00+00:00, map_index=1, execution_date=20250801T000000, start_date=20250802T140932, end_date=20250802T140932
+[2025-08-02T14:09:33.031+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-08-02T14:09:33.041+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
