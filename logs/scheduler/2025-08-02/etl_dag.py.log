@@ -592,3 +592,45 @@ AttributeError: 'function' object has no attribute 'timedelta'
 [2025-08-02T14:25:19.688+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:25:19.687+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2025-08-02T14:25:19.704+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:25:19.704+0000] {dag.py:3947} INFO - Setting next_dagrun for transaction_etl_pipeline to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
 [2025-08-02T14:25:19.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.071 seconds
+[2025-08-02T14:25:49.815+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:25:49.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-08-02T14:25:49.816+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:25:49.816+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:25:49.823+0000] {processor.py:840} INFO - DAG(s) 'transaction_etl_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:25:49.843+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:25:49.843+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-02T14:25:49.856+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:25:49.856+0000] {dag.py:3947} INFO - Setting next_dagrun for transaction_etl_pipeline to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
+[2025-08-02T14:25:49.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.056 seconds
+[2025-08-02T14:26:19.958+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:26:19.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-08-02T14:26:19.960+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:26:19.960+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:26:19.967+0000] {processor.py:840} INFO - DAG(s) 'transaction_etl_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:26:19.987+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:26:19.987+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-02T14:26:20.004+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:26:20.004+0000] {dag.py:3947} INFO - Setting next_dagrun for transaction_etl_pipeline to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
+[2025-08-02T14:26:20.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.063 seconds
+[2025-08-02T14:26:50.068+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:26:50.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-08-02T14:26:50.069+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:26:50.069+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:26:50.081+0000] {processor.py:840} INFO - DAG(s) 'transaction_etl_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:26:50.108+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:26:50.108+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-02T14:26:50.125+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:26:50.125+0000] {dag.py:3947} INFO - Setting next_dagrun for transaction_etl_pipeline to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
+[2025-08-02T14:26:50.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.084 seconds
+[2025-08-02T14:27:20.224+0000] {processor.py:161} INFO - Started process (PID=436) to work on /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:27:20.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-08-02T14:27:20.227+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:27:20.227+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:27:20.236+0000] {processor.py:840} INFO - DAG(s) 'transaction_etl_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:27:20.257+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:27:20.257+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-02T14:27:20.272+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:27:20.272+0000] {dag.py:3947} INFO - Setting next_dagrun for transaction_etl_pipeline to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
+[2025-08-02T14:27:20.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.067 seconds
+[2025-08-02T14:27:50.380+0000] {processor.py:161} INFO - Started process (PID=444) to work on /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:27:50.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-08-02T14:27:50.381+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:27:50.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:27:50.388+0000] {processor.py:840} INFO - DAG(s) 'transaction_etl_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:27:50.408+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:27:50.407+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-02T14:27:50.421+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:27:50.420+0000] {dag.py:3947} INFO - Setting next_dagrun for transaction_etl_pipeline to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
+[2025-08-02T14:27:50.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.055 seconds
+[2025-08-02T14:28:20.529+0000] {processor.py:161} INFO - Started process (PID=452) to work on /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:28:20.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-08-02T14:28:20.532+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:28:20.531+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:28:20.541+0000] {processor.py:840} INFO - DAG(s) 'transaction_etl_pipeline' retrieved from /opt/airflow/dags/etl_dag.py
+[2025-08-02T14:28:20.564+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:28:20.563+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-02T14:28:20.580+0000] {logging_mixin.py:188} INFO - [2025-08-02T14:28:20.580+0000] {dag.py:3947} INFO - Setting next_dagrun for transaction_etl_pipeline to 2025-08-02 00:00:00+00:00, run_after=2025-08-03 00:00:00+00:00
+[2025-08-02T14:28:20.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.072 seconds
